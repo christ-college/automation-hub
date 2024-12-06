@@ -1,0 +1,10 @@
+### simple API check
+GET http://localhost:3000/
+
+
+### Get a photo from specific camera (id=1)
+GET http://localhost:3000/home-automation/camera/photo/1
+
+### Get a photo from specific camera (id=1)
+curl -X GET http://localhost:3000/home-automation/camera/photo/1
+
